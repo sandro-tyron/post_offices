@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <title>Поштові відділення Тернополя</title>
+
+body {
+	/* This affects the entire page */
+	
+	background-color: white!important; 
+}
+.passage {
+	/* This only affects passages */
+	
+	
+}
+.passage a {
+	/* This affects passage links */
+	
+	
+}
+.passage a:hover {
+	/* This affects links while the cursor is over them */
+	
+	
+}
+
+img {
+    max-width: 100%;
+} 
+/*To hide link pictogram near clickable images*/
+a.link-external:after {
+    content: none;
+}
+p {
+font-family: 'Montserrat', sans-serif;}
+
+.thumbnail{
+margin-top: -130px;
+padding-top: 25px;
+}
+
