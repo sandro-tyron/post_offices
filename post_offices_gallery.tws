@@ -1,0 +1,584 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005c\u041a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u005cDesktop\u005c\u0422\u0438\u0440\u043e\u043d\u005cPost Offices\u005cTwine files\u005cxd.html
+p2
+sS'saveDestination'
+p3
+S'C:\\Users\\\xca\xee\xf0\xe8\xf1\xf2\xf3\xe2\xe0\xf7\\Desktop\\\xd2\xe8\xf0\xee\xed\\Post Offices\\Twine files\\post_offices_gallery.tws'
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcube-2'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I00
+sS'pos'
+p15
+(lp16
+I9
+aI10
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+S'Your story will display this passage first. Edit it by double clicking it.'
+p22
+sS'title'
+p23
+S'Start'
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2018
+I5
+I19
+I22
+I12
+I52
+I5
+I139
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g30
+sbsa(dp34
+g14
+I00
+sg15
+(lp35
+I10
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p36
+(dp37
+g21
+S'Untitled Story'
+p38
+sg23
+S'StoryTitle'
+p39
+sg25
+g26
+((I2018
+I5
+I19
+I22
+I12
+I52
+I5
+I139
+I1
+tp40
+(dp41
+tp42
+Rp43
+sg31
+(lp44
+sg33
+g43
+sbsa(dp45
+g14
+I00
+sg15
+(lp46
+I10
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p47
+(dp48
+g21
+S'Anonymous'
+p49
+sg23
+S'StoryAuthor'
+p50
+sg25
+g26
+((I2018
+I5
+I19
+I22
+I12
+I52
+I5
+I139
+I1
+tp51
+(dp52
+tp53
+Rp54
+sg31
+(lp55
+sg33
+g54
+sbsa(dp56
+g14
+I00
+sg15
+(lp57
+I936
+aI27
+asg17
+(itiddlywiki
+Tiddler
+p58
+(dp59
+g21
+V/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000a@import url(css/bootstrap.css);\u000a@import url(css/bootstrap-grid.css);\u000a@import url(css/bootstrap-grid.min.css);\u000a@import url(css/bootstrap-reboot.css);\u000a@import url(css/bootstrap-reboot.min.css);\u000a@import url('https://fonts.googleapis.com/css?family=Montserrat');\u000abody {\u000a	/* This affects the entire page */\u000a	\u000a	background-color: white!important; \u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	\u000a	\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	\u000a	\u000a}\u000a\u000aimg {\u000a    max-width: 100%;\u000a} \u000a/*To hide link pictogram near clickable images*/\u000aa.link-external:after {\u000a    content: none;\u000a}\u000ap {\u000afont-family: 'Montserrat', sans-serif;}\u000a\u000a.thumbnail{\u000amargin-top: -130px;\u000apadding-top: 25px;\u000a}\u000a
+p60
+sg23
+Vcss
+p61
+sg25
+g26
+((I2018
+I5
+I19
+I23
+I12
+I1
+I5
+I139
+I1
+tp62
+(dp63
+tp64
+Rp65
+sg31
+(lp66
+Vstylesheet
+p67
+asg33
+g26
+((I2018
+I5
+I19
+I22
+I12
+I56
+I5
+I139
+I1
+tp68
+(dp69
+tp70
+Rp71
+sbsa(dp72
+g14
+I00
+sg15
+(lp73
+I928
+aI186
+asg17
+(itiddlywiki
+Tiddler
+p74
+(dp75
+g21
+V\u000a\u000aUIBar.destroy();\u000a\u000a
+p76
+sg23
+Vjs
+p77
+sg25
+g26
+((I2018
+I5
+I19
+I22
+I33
+I3
+I5
+I139
+I1
+tp78
+(dp79
+tp80
+Rp81
+sg31
+(lp82
+Vscript
+p83
+asg33
+g26
+((I2018
+I5
+I19
+I22
+I13
+I0
+I5
+I139
+I1
+tp84
+(dp85
+tp86
+Rp87
+sbsa(dp88
+g14
+I00
+sg15
+(lp89
+I161
+aI79
+asg17
+(itiddlywiki
+Tiddler
+p90
+(dp91
+g21
+V<h1>Simple CSS Image Gallery with Zoom</h1>\u000a\u000a<div class="gallery cf">\u000a\u000a  <div>\u000a    <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7282.jpg" />\u000a  </div>\u000a  <div>\u000a    <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7282.jpg" />\u000a  </div>\u000a  <div>\u000a    <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7282.jpg" />\u000a  </div>\u000a  <div>\u000a    <img src="http://abload.de/img/a6aawu.jpg" />\u000a  </div>\u000a  <div>\u000a    <img src="http://abload.de/img/a6aawu.jpg" />\u000a  </div>\u000a  <div>\u000a    <img src="http://abload.de/img/a6aawu.jpg" />\u000a  </div>\u000a</div>\u000a</div>
+p92
+sg23
+VUntitled Passage 1
+p93
+sg25
+g26
+((I2018
+I5
+I19
+I23
+I11
+I24
+I5
+I139
+I1
+tp94
+(dp95
+tp96
+Rp97
+sg31
+(lp98
+sg33
+g26
+((I2018
+I5
+I19
+I22
+I26
+I57
+I5
+I139
+I1
+tp99
+(dp100
+tp101
+Rp102
+sbsa(dp103
+g14
+I00
+sg15
+(lp104
+F325.0
+aF79.0
+asg17
+(itiddlywiki
+Tiddler
+p105
+(dp106
+g21
+V\u000a<div class="container-fluid">\u000a<h1> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 </h1>\u000a<div class="row">\u000a<div class="col-md-9">\u000a\u000a<div class="row">\u000a <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7282.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7282.jpg" alt="Bohdanivka Post Office 1" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7286.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7286.jpg" alt="Bohdanivka Post Office 2" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7285.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7285.jpg" alt="Bohdanivka Post Office 3" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7291.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7291.jpg" alt="Bohdanivka Post Office 4" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7293.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7293.jpg" alt="Bohdanivka Post Office 5" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7283.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7283.jpg" alt="Bohdanivka Post Office 6" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7292.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7292.jpg" alt="Bohdanivka Post Office 7" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7301.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7301.jpg" alt="Bohdanivka Post Office 8" style="width:100%">\u000a        <div class="caption">\u000a          <p>71240</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a</div>\u000a</div>\u000a\u000a<div class="col-md-3">\u000a<h2>\u0411\u043e\u0433\u0434\u0430\u043d\u0456\u0432\u043a\u0430</h2>\u000a<p> <b> \u0406\u043d\u0434\u0435\u043a\u0441:</b> 71240 <br>\u000a<b>\u041d\u0430\u0437\u0432\u0430 \u0432\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f:</b> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0411\u043e\u0433\u0434\u0430\u043d\u0456\u0432\u043a\u0430 \u0426\u0435\u043d\u0442\u0440\u0443 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 \u2116 7 \u043c. \u0422\u043e\u043a\u043c\u0430\u043a \u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u043e\u0457 \u0434\u0438\u0440\u0435\u043a\u0446\u0456\u0457 \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0433\u043e \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u0430 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 "\u0423\u043a\u0440\u043f\u043e\u0448\u0442\u0430" <br>\u000a<b>\u0410\u0434\u0440\u0435\u0441\u0430:</b> \u0441\u0435\u043b\u043e \u0411\u043e\u0433\u0434\u0430\u043d\u0456\u0432\u043a\u0430 \u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u0441\u044c\u043a\u043e\u0433\u043e \u0440\u0430\u0439\u043e\u043d\u0443 \u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456, \u043f\u0440\u043e\u0432\u0443\u043b\u043e\u043a \u0428\u043a\u0456\u043b\u044c\u043d\u0438\u0439, 3\u000a</p>\u000a</div>\u000a</div>\u000a</div>
+p107
+sg23
+VBohdanivka
+p108
+sg25
+g26
+((I2018
+I5
+I20
+I16
+I51
+I57
+I6
+I140
+I1
+tp109
+(dp110
+tp111
+Rp112
+sg31
+(lp113
+VBohdanivka
+p114
+aVPost
+p115
+aVOffice
+p116
+asg33
+g26
+((I2018
+I5
+I20
+I15
+I21
+I6
+I6
+I140
+I1
+tp117
+(dp118
+tp119
+Rp120
+sbsa(dp121
+g14
+I00
+sg15
+(lp122
+F324.0
+aF224.0
+asg17
+(itiddlywiki
+Tiddler
+p123
+(dp124
+g21
+V\u000a<div class="container-fluid">\u000a<h1> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 </h1>\u000a<div class="row">\u000a<div class="col-md-9">\u000a\u000a<div class="row">\u000a  <div class="col-md-3">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6920.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6920.jpg" alt="Mariupol Post Office 1" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6922.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6922.jpg" alt="Mariupol Post Office 2" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6924.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6924.jpg" alt="Mariupol Post Office 3" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6952.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6952.jpg" alt="Mariupol Post Office 4" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6938.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6938.jpg" alt="Mariupol Post Office 5" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6945.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6945.jpg" alt="Mariupol Post Office 6" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6980.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6980.jpg" alt="Mariupol Post Office 7" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6979.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6979.jpg" alt="Mariupol Post Office 8" style="width:100%">\u000a        <div class="caption">\u000a          <p>87500</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a</div>\u000a</div>\u000a\u000a<div class="col-md-3">\u000a<h2>\u041c\u0430\u0440\u0456\u0443\u043f\u043e\u043b\u044c</h2>\u000a<p> <b> \u0406\u043d\u0434\u0435\u043a\u0441:</b> 87500 <br>\u000a<b>\u041d\u0430\u0437\u0432\u0430 \u0432\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f:</b> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u041c\u0430\u0440\u0456\u0443\u043f\u043e\u043b\u044c 55 \u0426\u0435\u043d\u0442\u0440\u0443 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 \u2116 5 \u043c. \u041c\u0430\u0440\u0456\u0443\u043f\u043e\u043b\u044c \u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u0434\u0438\u0440\u0435\u043a\u0446\u0456\u044f \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0433\u043e \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u0430 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 "\u0423\u043a\u0440\u043f\u043e\u0448\u0442\u0430" <br>\u000a<b>\u0410\u0434\u0440\u0435\u0441\u0430:</b> \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0443, 85, \u041c\u0430\u0440\u0456\u0443\u043f\u043e\u043b\u044c, \u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430\u000a</p>\u000a</div>\u000a</div>\u000a</div>
+p125
+sg23
+VMariupol
+p126
+sg25
+g26
+((I2018
+I5
+I20
+I17
+I23
+I32
+I6
+I140
+I1
+tp127
+(dp128
+tp129
+Rp130
+sg31
+(lp131
+VMariupol
+p132
+aVPost
+p133
+aVOffice
+p134
+asg33
+g26
+((I2018
+I5
+I20
+I16
+I52
+I5
+I6
+I140
+I1
+tp135
+(dp136
+tp137
+Rp138
+sbsa(dp139
+g14
+I00
+sg15
+(lp140
+F156.0
+aF227.0
+asg17
+(itiddlywiki
+Tiddler
+p141
+(dp142
+g21
+V\u000a<div class="container-fluid">\u000a<h1> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 </h1>\u000a<div class="row">\u000a<div class="col-md-9">\u000a\u000a<div class="row">\u000a  <div class="col-md-3">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_9323.JPGe"> \u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_9323.JPG" alt="Ternopil Post Office 1" style="width:100%">\u000a        <div class="caption">\u000a          <p>46006</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_1106.JPG">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_1106.JPG" alt="Ternopil Post Office 2" style="width:100%">\u000a        <div class="caption">\u000a          <p>46006</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_4763.JPG">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_4763.JPG" alt="Ternopil Post Office 3" style="width:100%">\u000a        <div class="caption">\u000a          <p>46006</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_9208.JPG">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_9208.JPG" alt="Ternopil Post Office 4" style="width:100%">\u000a        <div class="caption">\u000a          <p>46006</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a</div>\u000a</div>\u000a\u000a<div class="col-md-3">\u000a<h2>\u0422\u0435\u0440\u043d\u043e\u043f\u0456\u043b\u044c</h2>\u000a<p> <b> \u0406\u043d\u0434\u0435\u043a\u0441:</b> 46006 <br>\u000a<b>\u041d\u0430\u0437\u0432\u0430 \u0432\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f:</b> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 \u2116 6 \u043c. \u0422\u0435\u0440\u043d\u043e\u043f\u0456\u043b\u044c \u0422\u0435\u0440\u043d\u043e\u043f\u0456\u043b\u044c\u0441\u044c\u043a\u0430 \u0434\u0438\u0440\u0435\u043a\u0446\u0456\u044f \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0433\u043e \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u0430 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 "\u0423\u043a\u0440\u043f\u043e\u0448\u0442\u0430" <br>\u000a<b>\u0410\u0434\u0440\u0435\u0441\u0430:</b> \u0432\u0443\u043b. \u041a\u043d\u044f\u0437\u044f \u041e\u0441\u0442\u0440\u043e\u0437\u044c\u043a\u043e\u0433\u043e, 54, \u0422\u0435\u0440\u043d\u043e\u043f\u0456\u043b\u044c\u000a</p>\u000a</div>\u000a</div>\u000a</div>
+p143
+sg23
+VTernopil
+p144
+sg25
+g26
+((I2018
+I5
+I20
+I17
+I31
+I34
+I6
+I140
+I1
+tp145
+(dp146
+tp147
+Rp148
+sg31
+(lp149
+VTernopil
+p150
+aVPost
+p151
+aVOffice
+p152
+asg33
+g26
+((I2018
+I5
+I20
+I17
+I23
+I55
+I6
+I140
+I1
+tp153
+(dp154
+tp155
+Rp156
+sbsa(dp157
+g14
+I00
+sg15
+(lp158
+F155.0
+aF375.0
+asg17
+(itiddlywiki
+Tiddler
+p159
+(dp160
+g21
+V\u000a<div class="container-fluid">\u000a<h1> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 </h1>\u000a<div class="row">\u000a<div class="col-md-9">\u000a\u000a<div class="row">\u000a  <div class="col-md-3">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7363.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7363.jpg" alt="Chernihivka Post Office 1" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7372.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7372.jpg" alt="Chernihivka Post Office 2" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7375.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7375.jpg" alt="Chernihivka Post Office 3" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7378.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7378.jpg" alt="Chernihivka Post Office 4" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7374.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7374.jpg" alt="Chernihivka Post Office 5" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7382.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7382.jpg" alt="Chernihivka Post Office 6" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7380.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7380.jpg" alt="Chernihivka Post Office 7" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7370.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/IMG_7370.jpg" alt="Chernihivka Post Office 8" style="width:100%">\u000a        <div class="caption">\u000a          <p>71202</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a</div>\u000a</div>\u000a\u000a<div class="col-md-3">\u000a<h2>\u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u043a\u0430</h2>\u000a<p> <b> \u0406\u043d\u0434\u0435\u043a\u0441:</b> 71202 <br>\u000a<b>\u041d\u0430\u0437\u0432\u0430 \u0432\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f:</b> \u041c\u0456\u0441\u044c\u043a\u0435 \u0432\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u21162 \u0426\u0435\u043d\u0442\u0440\u0443 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 \u2116 7 \u043c. \u0422\u043e\u043a\u043c\u0430\u043a \u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u043e\u0457 \u0434\u0438\u0440\u0435\u043a\u0446\u0456\u0457 \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0433\u043e \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u0430 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 "\u0423\u043a\u0440\u043f\u043e\u0448\u0442\u0430" <br>\u000a<b>\u0410\u0434\u0440\u0435\u0441\u0430:</b> \u0441\u043c\u0442 \u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u043a\u0430, \u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u0430 \u043e\u0431\u043b., \u0432\u0443\u043b. \u041b\u0435\u043d\u0456\u043d\u0430, 448\u000a</p>\u000a</div>\u000a</div>\u000a</div>
+p161
+sg23
+VChernihivka
+p162
+sg25
+g26
+((I2018
+I5
+I20
+I17
+I41
+I37
+I6
+I140
+I1
+tp163
+(dp164
+tp165
+Rp166
+sg31
+(lp167
+VChernihivka
+p168
+aVPost
+p169
+aVOffice
+p170
+asg33
+g26
+((I2018
+I5
+I20
+I17
+I31
+I59
+I6
+I140
+I1
+tp171
+(dp172
+tp173
+Rp174
+sbsa(dp175
+g14
+I00
+sg15
+(lp176
+F322.0
+aF371.0
+asg17
+(itiddlywiki
+Tiddler
+p177
+(dp178
+g21
+V\u000a<div class="container-fluid">\u000a<h1> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432\u2019\u044f\u0437\u043a\u0443 </h1>\u000a<div class="row">\u000a<div class="col-md-9">\u000a\u000a<div class="row">\u000a  <div class="col-md-3">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6468.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6468.jpg" alt="Zhydachiv Post Office 1" style="width:100%">\u000a        <div class="caption">\u000a          <p>81700</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6470.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6470.jpg" alt="Zhydachiv Post Office 2" style="width:100%">\u000a        <div class="caption">\u000a          <p>81700</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a  <div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6474.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6474.jpg" alt="Zhydachiv Post Office 3" style="width:100%">\u000a        <div class="caption">\u000a          <p>81700</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6475.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6475.jpg" alt="Zhydachiv Post Office 4" style="width:100%">\u000a        <div class="caption">\u000a          <p>81700</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6476.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6476.jpg" alt="Zhydachiv Post Office 5" style="width:100%">\u000a        <div class="caption">\u000a          <p>81700</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a<div class="col-md-3 p-0">\u000a    <div class="thumbnail">\u000a      <a href="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6478.jpg">\u000a        <img src="https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6478.jpg" alt="Zhydachiv Post Office 6" style="width:100%">\u000a        <div class="caption">\u000a          <p>81700</p>\u000a        </div>\u000a      </a>\u000a    </div>\u000a  </div>\u000a\u000a</div>\u000a</div>\u000a\u000a<div class="col-md-3">\u000a<h2>\u0416\u0438\u0434\u0430\u0447\u0456\u0432</h2>\u000a<p> <b> \u0406\u043d\u0434\u0435\u043a\u0441:</b> 81700 <br>\u000a<b>\u041d\u0430\u0437\u0432\u0430 \u0432\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f:</b> \u0412\u0456\u0434\u0434\u0456\u043b\u0435\u043d\u043d\u044f \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 \u0416\u0438\u0434\u0430\u0447\u0456\u0432 \u0426\u0435\u043d\u0442\u0440\u0443 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 \u21164 \u043c. \u0416\u0438\u0434\u0430\u0447\u0456\u0432 \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u0434\u0438\u0440\u0435\u043a\u0446\u0456\u044f \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u0433\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0433\u043e \u043f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u0430 \u043f\u043e\u0448\u0442\u043e\u0432\u043e\u0433\u043e \u0437\u0432'\u044f\u0437\u043a\u0443 "\u0423\u043a\u0440\u043f\u043e\u0448\u0442\u0430" <br>\u000a<b>\u0410\u0434\u0440\u0435\u0441\u0430:</b> \u043c. \u0416\u0438\u0434\u0430\u0447\u0456\u0432, \u0416\u0438\u0434\u0430\u0447\u0456\u0432\u0441\u044c\u043a\u0438\u0439 \u0440-\u043d, \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b., \u043f\u043b. \u0421\u0432\u043e\u0431\u043e\u0434\u0438, 8\u000a</p>\u000a</div>\u000a</div>\u000a</div>
+p179
+sg23
+VZhydachiv
+p180
+sg25
+g26
+((I2018
+I5
+I20
+I17
+I54
+I26
+I6
+I140
+I1
+tp181
+(dp182
+tp183
+Rp184
+sg31
+(lp185
+VZhydachiv
+p186
+aVPost
+p187
+aVOffice
+p188
+asg33
+g26
+((I2018
+I5
+I20
+I17
+I49
+I55
+I6
+I140
+I1
+tp189
+(dp190
+tp191
+Rp192
+sbsasS'scale'
+p193
+I1
+sS'snapping'
+p194
+I00
+ss.
