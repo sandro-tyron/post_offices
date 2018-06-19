@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html>
+/* Your story will use the CSS in this passage to style the page.
+Give this passage more tags, and it will only affect passages with those tags.
+Example selectors: */
 
-<head>
-   
-    <title>Поштові відділення Тернополя</title>
-
+@import url(css/bootstrap.css);
+@import url(css/bootstrap-grid.css);
+@import url(css/bootstrap-grid.min.css);
+@import url(css/bootstrap-reboot.css);
+@import url(css/bootstrap-reboot.min.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
 	/* This affects the entire page */
-	
 	background-color: white!important; 
 }
 .passage {
@@ -26,6 +28,11 @@ body {
 	
 }
 
+.container-fluid {
+padding-top: 30px;
+margin-top: 30px;
+}
+
 img {
     max-width: 100%;
 } 
@@ -35,9 +42,4 @@ a.link-external:after {
 }
 p {
 font-family: 'Montserrat', sans-serif;}
-
-.thumbnail{
-margin-top: -130px;
-padding-top: 25px;
-}
 
