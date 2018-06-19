@@ -37,8 +37,8 @@ var postals = [{
         "properties": {
             "name": "Відділення поштового зв’язку Богданівка Центру поштового зв'язку № 7",
             "city": "Богданівка",
-          "url": "https://gis.stackexchange.com/questions/31951/how-to-show-a-popup-on-mouse-over-not-on-click",
-            "icon_url": "https://securecdn.pymnts.com/wp-content/uploads/2017/11/bahamas-post-office-einvoice.jpg",
+          "url": "Bohdanivka.html",
+            "icon_url": "https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Bohdanivka/IMG_7282.jpg",
             "show_on_map": true
         },
         "geometry": {
@@ -48,59 +48,76 @@ var postals = [{
     }, {
         "type": "Feature",
         "properties": {
-            "name": " ",
-            "city": " ",
-          "url": "https://gis.stackexchange.com/questions/31951/how-to-show-a-popup-on-mouse-over-not-on-click",
-            "icon_url": "https://securecdn.pymnts.com/wp-content/uploads/2017/11/bahamas-post-office-einvoice.jpg",
+            "name": "Відділення поштового зв'язку Жидачів Центру поштового зв'язку №4  ",
+            "city": "Жидачів",
+          "url": "Zhydachiv.html",
+            "icon_url": "https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Zhydachiv/IMG_6468.jpg",
             "show_on_map": true
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [30.523400, 50.450100]
+            "coordinates": [24.136284, 49.388087]
         }
     },  {
         "type": "Feature",
         "properties": {
-            "name": " ",
-            "city": " ",
-          "url": "https://gis.stackexchange.com/questions/31951/how-to-show-a-popup-on-mouse-over-not-on-click",
-            "icon_url": "https://securecdn.pymnts.com/wp-content/uploads/2017/11/bahamas-post-office-einvoice.jpg",
+            "name": "Відділення поштового зв’язку Маріуполь 55 Центру поштового зв'язку № 5 ",
+            "city": "Маріуполь",
+          "url": "Mariupol.html",
+            "icon_url": "https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Mariupol/IMG_6920.jpg",
             "show_on_map": true
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [24.029717, 49.839683]
+            "coordinates": [37.538690, 47.098015]
         }
     },
  
     {
         "type": "Feature",
         "properties": {
-            "name": " ",
-            "city": " ",
-          "url": "https://gis.stackexchange.com/questions/31951/how-to-show-a-popup-on-mouse-over-not-on-click",
-            "icon_url": "https://securecdn.pymnts.com/wp-content/uploads/2017/11/bahamas-post-office-einvoice.jpg",
+            "name": "Міське відділення поштового зв’язку №2 Центру поштового зв'язку № 7 м. Токмак",
+            "city": "Чернігівка",
+          "url": "Chernihivka.html",
+            "icon_url": "https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Chernihivka/-IMG_7375.jpg",
             "show_on_map": true
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [28.658667, 50.254650]
+            "coordinates": [36.219728, 47.191164]
         }
     },
    
     {
         "type": "Feature",
         "properties": {
-            "name": " ",
-            "city": " ",
-          "url": "https://gis.stackexchange.com/questions/31951/how-to-show-a-popup-on-mouse-over-not-on-click",
-            "icon_url": "https://securecdn.pymnts.com/wp-content/uploads/2017/11/bahamas-post-office-einvoice.jpg",
+            "name": "Відділення поштового зв'язку № 6 м. Тернопіль ",
+            "city": "Тернопіль ",
+          "url": "Ternopil.html",
+            "icon_url": "https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_1106.JPG",
 
             "show_on_map": true
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [28.468217, 49.233083]
+            "coordinates": [25.601085, 49.545188]
+        }
+
+    },
+    
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "Відділення поштового зв'язку № 1 м. Львів ",
+            "city": "Львів ",
+          "url": "Lviv.html",
+            "icon_url": "https://raw.githubusercontent.com/sandro-tyron/post_offices/master/images_2/Ternopil/IMG_1106.JPG",
+
+            "show_on_map": true
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [24.041070, 49.816494]
         }
 
     }
