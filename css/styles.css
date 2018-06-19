@@ -43,13 +43,29 @@ li a:hover {
 #header {
   height: 300px;
   background-image: url(https://github.com/sandro-tyron/post_offices/blob/master/images_2/header.png?raw=true); 
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   font-family: "sans-serif";
   font-size: 24px;
   width: 100%;
   z-index: 1;
 }
+
+.column {
+    margin-bottom: 30px;
+    margin-left: : 60px;
+    padding: 20px;
+}
+
+.column-1 {
+  width:115px;
+    height: 56px;
+}
+
+.column-2 {
+  width: 225px;
+    height: 36px;
+
 .banner {
   color: #000000;
 }
@@ -61,11 +77,16 @@ li a:hover {
  }
 
 .cafedra {
-  width: 100px;
+  width: 200px;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
+.project_logo {
+   width: 100px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
 
 .box {
  width:420px;  
