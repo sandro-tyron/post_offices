@@ -178,16 +178,50 @@ figure.snip0078.hover.yellow img {
   width: 100%;
   z-index: 1;
 }
+
+ul {
+    font-family:'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 10;
+    margin-bottom: 150;
+    overflow: hidden;
+    background-color: #302f7e;
+}
+
+li {
+    font-family:'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mainMenu {
+  margin: 0px;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #F15D5E;
+}
 #footer {
   height: 300px;
-  background-image: url(https://github.com/sandro-tyron/post_offices/blob/master/back4.png?raw=true ); 
+  background-image: url(https://github.com/sandro-tyron/post_offices/blob/master/images_2/back4.png?raw=true ); 
   background-size: cover;
   background-position: center center;
   font-family: "sans-serif";
   font-size: 24px;
-  width: 130%;
+  width: 98vw;
   z-index: 1;
 }
+
 
 .cafedra {
   width: 100px;
